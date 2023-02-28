@@ -1,38 +1,173 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="UTF-8">
-		<title>dev mbti 결과</title>
-	</head>
-	<body>
-		<h4>결과</h4>
-        <hr>
-        <h2>당신의 MBTI</h2>
-         INTJ - 용의주도한 전략가<br>
-         목표 지향적. Github에 잔디 심어지는 모습을 보면서 큰 행복감을 느낌.<br>
-         혼자 있는 것을 좋아함.
-         <div id="disqus_thread"></div>
-         <script>
-             /**
-             *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-             *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
-             /*
-             var disqus_config = function () {
-             this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
-             this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-             };
-             */
-             (function() { // DON'T EDIT BELOW THIS LINE
-             var d = document, s = d.createElement('script');
-             s.src = 'https://gaebalja-mbti.disqus.com/embed.js';
-             s.setAttribute('data-timestamp', +new Date());
-             (d.head || d.body).appendChild(s);
-             })();
-         </script>
-         <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-    asd
-    
-        </body>
-</html>
-
-
+<head>
+	<title>당신의 MBTI 결과</title>
+	<meta charset="utf-8">
+	<style>
+		body {
+			background-color: #007bff;
+			font-family: 'Noto Sans KR', sans-serif;
+		}
+		h1 {
+			text-align: center;
+			margin-top: 50px;
+		}
+		.container {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+			align-items: center;
+			margin-top: 50px;
+		}
+		.mbti-type {
+			margin: 20px;
+			padding: 20px;
+			border-radius: 10px;
+			background-color: #ffffff;
+			box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+			text-align: center;
+		}
+		.mbti-type img {
+			width: 150px;
+			height: 150px;
+			object-fit: cover;
+			border-radius: 50%;
+			margin-bottom: 10px;
+		}
+		.mbti-type h2 {
+			margin: 0;
+			font-size: 24px;
+			font-weight: bold;
+			color: #333333;
+			margin-bottom: 10px;
+		}
+		.mbti-type p {
+			margin: 0;
+			font-size: 16px;
+			color: #666666;
+		}
+        footer {
+  background-color: #f8f9fa;
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9em;
+  border-top: 1px solid #ddd;
+}
+footer p {
+  margin: 0;
+}
+	</style>
+</head>
+<body>
+	<h1>당신의 MBTI 결과는?</h1>
+	<div class="container">
+		<div class="mbti-type">
+			<img src="https://via.placeholder.com/150" alt="ISTJ">
+			<h2>ISTJ</h2>
+			<p>
+                청렴결백한 논리주의자<br>
+                필요한 일만 정확하게 처리함. 물건 사면 설명서 꼭 읽어봄<br>
+                남들과 같이 일하는 것 보다 혼자 일하는 것이 효율적
+            </p>
+            
+		</div>
+		<div class="mbti-type">
+			<img src="https://via.placeholder.com/150" alt="ISFJ">
+			<h2>ISFJ</h2>
+			<p>용감한 수호자</p>
+		</div>
+		<div class="mbti-type">
+			<img src="https://via.placeholder.com/150" alt="INFJ">
+			<h2>INFJ</h2>
+			<p>선의의 옹호자</p>
+		</div>
+		<div class="mbti-type">
+			<img src="https://via.placeholder.com/150" alt="INTJ">
+			<h2>INTJ</h2>
+			<p>용의주도한 전략가</p>
+		</div>
+		<div class="mbti-type">
+			<img src="https://via.placeholder.com/150" alt="ISTP">
+			<h2>ISTP</h2>
+			<p>만능 재주꾼</p>
+		</div>
+		<div class="mbti-type">
+			<img src="https://via.placeholder.com/150" alt="ISFP">
+            <h2>ISFP</h2>
+            <p>호기심 많은 예술가</p>
+            </div>
+            <div class="mbti-type">
+            <img src="https://via.placeholder.com/150" alt="INFP">
+            <h2>INFP</h2>
+            <p>열정적인 중재자</p>
+            </div>
+            <div class="mbti-type">
+            <img src="https://via.placeholder.com/150" alt="INTP">
+            <h2>INTP</h2>
+            <p>논리적인 사색가</p>
+            </div>
+            <div class="mbti-type">
+            <img src="https://via.placeholder.com/150" alt="ESTP">
+            <h2>ESTP</h2>
+            <p>모험을 즐기는 사업가</p>
+            </div>
+            <div class="mbti-type">
+            <img src="https://via.placeholder.com/150" alt="ESFP">
+            <h2>ESFP</h2>
+            <p>자유로운 영혼의 연예인</p>
+            </div>
+            <div class="mbti-type">
+            <img src="https://via.placeholder.com/150" alt="ENFP">
+            <h2>ENFP</h2>
+            <p>재치있는 활동가</p>
+            </div>
+            <div class="mbti-type">
+            <img src="https://via.placeholder.com/150" alt="ENTP">
+            <h2>ENTP</h2>
+            <p>뜨거운 논쟁을 즐기는 변론가</p>
+            </div>
+            <div class="mbti-type">
+            <img src="https://via.placeholder.com/150" alt="ESTJ">
+            <h2>ESTJ</h2>
+            <p>엄격한 관리자</p>
+            </div>
+            <div class="mbti-type">
+            <img src="https://via.placeholder.com/150" alt="ESFJ">
+            <h2>ESFJ</h2>
+            <p>사교적인 친선도모가</p>
+            </div>
+            <div class="mbti-type">
+            <img src="https://via.placeholder.com/150" alt="ENFJ">
+            <h2>ENFJ</h2>
+            <p>정열적인 사회운동가</p>
+            </div>
+            <div class="mbti-type">
+            <img src="https://via.placeholder.com/150" alt="ENTJ">
+            <h2>ENTJ</h2>
+            <p>대담한 통솔자</p>
+            </div>
+            </div>
+            <div id="disqus_thread"></div>
+<script>
+    /**
+    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+    /*
+    var disqus_config = function () {
+    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    */
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://gaebalja-mbti.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<footer>
+    <p>&copy; 2023 MBTI 테스트. All rights reserved.</p>
+  </footer>
+            </body>
+            </html>

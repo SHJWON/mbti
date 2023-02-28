@@ -1,14 +1,105 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="UTF-8">
-		<title>dev mbti 시작</title>
-	</head>
-	<body>
-		<h2>개발자 MBTI 테스트</h2>
-        <button type="button" onclick="location.href='test.html'">테스트  하러가기</button>
-        
-	</body>
+  <head>
+    <title>MBTI 테스트</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /* 전체 페이지 스타일 */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* 헤더 스타일 */
+header {
+  background-color: #007bff;
+  color: white;
+  text-align: center;
+  padding: 30px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 3em;
+}
+
+header p {
+  margin: 20px 0 0;
+  font-size: 1.2em;
+}
+
+/* 메인 스타일 */
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 30px;
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+section h2 {
+  margin-top: 0;
+  font-size: 2em;
+}
+
+section p {
+  font-size: 1.2em;
+  line-height: 1.5;
+}
+
+.button {
+  display: inline-block;
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1.2em;
+  text-decoration: none;
+}
+
+.button:hover {
+  background-color: #0069d9;
+}
+
+/* 푸터 스타일 */
+footer {
+  background-color: #f8f9fa;
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9em;
+  border-top: 1px solid #ddd;
+}
+
+footer p {
+  margin: 0;
+}
+
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>MBTI 테스트</h1>
+      <p>나와 가장 잘 맞는 MBTI 유형을 찾아보세요.</p>
+    </header>
+
+    <main>
+      <section>
+        <h2>MBTI란?</h2>
+        <p>MBTI는 Myers-Briggs Type Indicator의 약자로, 인간의 성격 유형을 나타내는 심리검사입니다.</p>
+      </section>
+
+      <section>
+        <h2>테스트 방법</h2>
+        <p>테스트를 시작하시려면 아래 버튼을 클릭하세요.</p>
+        <a href="test.html" class="button">시작하기</a>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2023 MBTI 테스트. All rights reserved.</p>
+    </footer>
+  </body>
 </html>
-
-
